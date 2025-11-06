@@ -11,6 +11,7 @@ export default defineConfig({
     host: true,
     allowedHosts: [
       'webdevlab8-2.onrender.com',
+      'webdevlab8-4.onrender.com',
       '*.onrender.com'
     ]
   }
