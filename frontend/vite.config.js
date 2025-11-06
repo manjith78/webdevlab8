@@ -5,5 +5,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
+  },
+  preview: {
+    port: process.env.PORT || 3000,
+    host: true,
+    allowedHosts: [
+      'webdevlab8-2.onrender.com',
+      '*.onrender.com'
+    ]
   }
 });
