@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/vehicles";
+const API_URL = "https://webdevlab8.onrender.com";
 
 export default function VehicleForm() {
   const [form, setForm] = useState({
