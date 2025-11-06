@@ -98,10 +98,3 @@ button:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(61,220,151,0
 
 /* Small helper */
 .small{font-size:13px;color:var(--muted)}
-
-/* Login card tweaks */
-.login-card { text-align: left; }
-.login-card h2 { margin: 0 0 6px 0; }
-.login-card input { width: 100%; }
-.login-card .small { margin-top: 6px; }
-
